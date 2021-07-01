@@ -6,4 +6,6 @@
 
 [009-palindrome-number.py]()
 
+[012-integer-to-roman.py]()
+
 [013-roman-to-integer.py]()
