@@ -1,5 +1,5 @@
 class Solution:
-
+    # 24 ms 14.2 MB
     @staticmethod
     def is_valid(s: str) -> bool:
         stack = []
@@ -16,3 +16,5 @@ assert Solution.is_valid(s="()[]{}") == True
 assert Solution.is_valid(s="(]") == False
 assert Solution.is_valid(s="([)]") == False
 assert Solution.is_valid(s="{[]}") == True
+assert Solution.is_valid(s="]") == False
+assert Solution.is_valid(s="[") == False
